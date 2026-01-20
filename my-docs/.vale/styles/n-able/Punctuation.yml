@@ -1,0 +1,11 @@
+extends: existence
+message: "Missing space after '%s'"
+level: error
+nonword: true
+tokens:
+  - '\.[A-Z]'
+  - ",[A-Z]"
+  - '\?[A-Z]'
+  - "![A-Z]"
+  - ":[A-Z]"
+  - ";[A-Z]"
