@@ -11,5 +11,6 @@
     "source.fixAll.markdownlint": "explicit"
   },
   "files.trimTrailingWhitespace": true,
-  "vale.valeCLI.config": "${workspaceFolder}/.vale.ini"
+  "vale.valeCLI.config": "${workspaceFolder}/.vale.ini",
+  "cSpell.words": ["Infima"]
 }
