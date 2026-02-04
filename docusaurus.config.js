@@ -10,9 +10,9 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
-  favicon: "img/favicon.ico",
+  title: "Iain's Site",
+  tagline: "Dinosaurs are funky",
+  favicon: "img/witness.ico",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -50,7 +50,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/iain-taylor-NAble/hello-world/tree/main/docs/review-stack/",
         },
         blog: {
           showReadingTime: true,
@@ -61,7 +61,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/iain-taylor-NAble/hello-world/tree/main/docs/review-stack/",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
@@ -83,18 +83,34 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: "My Site",
+        title: "Iain's Site",
         logo: {
-          alt: "My Site Logo",
-          src: "img/logo.svg",
+          alt: "Iain's Site Logo",
+          src: "img/witness.png",
         },
         items: [
+          {
+            type: "docSidebar",
+            sidebarId: "iainSidebar",
+            position: "left",
+            label: "Space Place",
+          },
+          /*
+          {
+            type: "docSidebar",
+            sidebarId: "extrevSidebar",
+            position: "left",
+            label: "External Review",
+          },
+
           {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
             label: "Tutorial",
           },
+          */
+
           { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/facebook/docusaurus",
@@ -110,7 +126,7 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
+                label: "External Review Stack",
                 to: "/docs/intro",
               },
             ],

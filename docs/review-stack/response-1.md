@@ -1,5 +1,5 @@
 ---
-Sidebar position: 3
+sidebar_position: 3
 ---
 
 # Response 1
@@ -45,7 +45,7 @@ Sidebar position: 3
 
     - Not a code‑line review tool; you still translate comments back to files.
 
-    **Version tracking:** PR statuses; optional action that comments the preview URL into the PR. [docs.netlify.com], [github.com]
+    **Version tracking:** PR statuses; optional action that comments the preview URL into the PR. [[docs.netlify.com](https://docs.netlify.com/deploy/deploy-types/deploy-previews/)], [[github.com](https://github.com/marketplace/actions/netlify-deploy-with-comments)]
 
 ### A3) Cloudflare Pages Preview Deployments (+ GitHub Action for PR comment)
 
