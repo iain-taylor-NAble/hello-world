@@ -49,8 +49,7 @@ const config = {
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/iain-taylor-NAble/hello-world/tree/main/docs/review-stack/",
+          editUrl: "https://github.com/iain-taylor-NAble/hello-world/tree/main",
         },
         blog: {
           showReadingTime: true,
@@ -60,8 +59,7 @@ const config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/iain-taylor-NAble/hello-world/tree/main/docs/review-stack/",
+          editUrl: "https://github.com/iain-taylor-NAble/hello-world/tree/main",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
