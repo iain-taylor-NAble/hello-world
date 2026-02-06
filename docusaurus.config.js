@@ -11,8 +11,8 @@ import { themes as prismThemes } from "prism-react-renderer";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Iain's Site",
-  tagline: "Dinosaurs are funky",
-  favicon: "img/witness.ico",
+  tagline: "InfoDev Sandbox",
+  favicon: "img/demo-medium-initials.ico",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -84,7 +84,7 @@ const config = {
         title: "Iain's Site",
         logo: {
           alt: "Iain's Site Logo",
-          src: "img/witness.png",
+          src: "img/demo-medium-initials.png",
         },
         items: [
           {
