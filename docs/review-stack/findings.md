@@ -71,7 +71,7 @@ Group E is focused on “Git‑backed editorial UI” (non‑technical authors e
 
 Looked promising, but it is ultimately an editor - reviewers would amend the preview files. Uses Git.
 
-### Suggestion F :smile:
+### Suggestion F :star:
 
 Group F is using our (possibly) current tools, "Backstage TechDocs” (since you have Backstage)
 
@@ -126,7 +126,7 @@ Chalking this one up as an unsecure tool, and not for consideration.
 
 Tools That Provide Collaborative Markdown Editing (Partially Fits)
 
-#### HackMD :smile: / CodiMD
+#### HackMD :star: / CodiMD
 
 HackMD may be an option. CodiMD is not, nor is HedgeDoc. HackMD is available free, but our use may mean we will need paid licences perhaps.
 
@@ -148,7 +148,7 @@ These suggestions are about as good and bad as our current Word doc approach.
 
 Tools That Support Guest Commenting on Markdown (GitHub‑adjacent)
 
-#### Holocron (from Awesome Markdown Editors list) :smile:
+#### Holocron (from Awesome Markdown Editors list) :star:
 
 Unable to determine much about Holocron - website is very AI built looking, similar to many others in this space. Unable to find demo content, such as YT videos/tutorials etc.
 
@@ -176,7 +176,7 @@ Already covered in response 1 and disregarded.
 
 As before, Figma-style not really suitable.
 
-### Suggestion 2 :smile:
+### Suggestion 2 :star:
 
 Web annotation layer on your preview site
 
@@ -184,7 +184,7 @@ Web annotation layer on your preview site
 
 Can use the Docusaurus preview as the review, would require a custom 'bridge' to return comments in review as TODO Comments in the .md and or open GitHub PR.
 
-### Suggestion 3 :smile:
+### Suggestion 3 :star:
 
 Git‑based CMS UI so non‑GitHub users can propose changes (instead of comments)
 

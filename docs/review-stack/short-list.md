@@ -4,7 +4,7 @@ sidebar_position: 7
 
 # The Shortlist
 
-You may have spotted three smiley faces throughout the [Findings](findings.md). These are my top 3 picks from the plethora of suggestions made by Copilot.
+You may have spotted three stars (:star:) throughout the [Findings](findings.md). These are my top 3 picks from the plethora of suggestions made by Copilot.
 
 Ideally, we would like to have a situation whereby:
 
@@ -16,7 +16,7 @@ There ares no currently available solutions that meet all the sought after aspec
 
 My shortlist is based on overall fit with the caveat that one area looked for is not an ideal result.
 
-## Shortlister 1: Backstage TechDocs :star:
+## Shortlister 1: Backstage TechDocs :star::star::star:
 
 This seems to be a good fit, but negates the non-GitHub user aspect, as each reviewer does need a GitHub account. However actual use of GitHub for the reviewer is minimal.
 
@@ -38,15 +38,19 @@ Further, more in-depth research into this possible solution is warranted.
 
 This is my leading choice at this time, due to extension availability for VS Code where by GitHub Issuse and PRs can be pulled into VS Code, the live site for reviewers, despite the GitHub issues requiring a GitHub account, and it seems we can template the pop-up for creating the issue in GitHub. Jira extensions also exist, so robust and versioning by Issue / PRs can possibly be linked easily.
 
-## Shortlister 2: Hypothes.is (public or private groups; open‑source, free service)
+## Shortlister 2: Hypothes.is (public or private groups; open‑source, free service) :star::star:
+
+Primarily a tool for student and researchers to annotate online documentation, for education professionals to collaborate on resources, provide guidance interactively through a learning resource.
 
 This uses web annotation standards to provide live annotating on a live page. Annotations contained within the Hypothes.is app (online), but can be exported - this would need further investigation into how useful this approach would be, manual or automated export and parsing prior into either GitHub or TODO comment injection into source files.
 
 Can use the Docusaurus preview as the review, would require a custom 'bridge' to return comments in review as TODO Comments in the .md and or open GitHub PR.
 
-## Shortlister 3: Decap CMS (ex‑Netlify CMS) with Editorial Workflow
+## Shortlister 3: Decap CMS (ex‑Netlify CMS) with Editorial Workflow :star:
 
 Git‑based CMS UI so non‑GitHub users can propose changes (instead of comments)
-More a case of all reviewers are now editors. Each edit creates a branch and a PR - this may be too much (assuming each edit on a single page would create a branch and PR). May work with Docusaurus preview site rather than having to use Netlify if we self host.
+More a case of all reviewers are now editors. Each edit creates a branch and a PR - this may be too much (assuming each edit on a single page would create a branch and PR).
+
+May work with Docusaurus preview site rather than having to use Netlify if we self host. Netlify use would most likely incur cost based on our likely usage.
 
 This forces reviewers into a new tool giving rendered and code views side by side, and possibly needing to write in Markdown, which if limited to commented out additions to the source files, may be suitable.

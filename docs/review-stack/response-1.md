@@ -170,7 +170,7 @@ sidebar_position: 3
 
 ## F. “Backstage TechDocs” (since you have Backstage)
 
-    *What it is:** Docs‑like‑code viewing in Backstage (MkDocs‑based). Today there’s no built‑in inline comments system; there are “addons” and issues filed proposing comment features. A common pattern is a “Report issue” addon linking back to GitHub. [[backstage.io](https://backstage.io/docs/features/techdocs/addons/)], [[github.com](https://github.com/backstage/backstage/issues/24216)], [[github.com](https://github.com/backstage/backstage/issues/21091)]
+    **What it is:** Docs‑like‑code viewing in Backstage (MkDocs‑based). Today there’s no built‑in inline comments system; there are “addons” and issues filed proposing comment features. A common pattern is a “Report issue” addon linking back to GitHub. [[backstage.io](https://backstage.io/docs/features/techdocs/addons/)], [[github.com](https://github.com/backstage/backstage/issues/24216)], [[github.com](https://github.com/backstage/backstage/issues/21091)]
 
     **Line‑linking reality:** No native per‑line commenting.
 
