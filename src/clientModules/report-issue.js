@@ -22,6 +22,7 @@ function buildIssueUrl({ pageUrl, selectionText }) {
 
 function createButton() {
   const btn = document.createElement("button");
+  btn.classList.add("docs-report-issue-btn");
   btn.textContent = "Report issue";
   btn.style.position = "fixed";
   btn.style.zIndex = 9999;
@@ -46,8 +47,16 @@ export function onRouteDidUpdate() {
     button.style.display = "none";
   };
 
-  document.addEventListener("mousedown", hide);
+  const hideOnDocumentMouseDown = (ev) => {
+    // If the click is on the button, don't hide (let the click handler run)
+    const target = ev.target;
+    if (target && target.closest && target.closest(".docs-report-issue-btn")) {
+      return;
+    }
+    button.style.display = "none";
+  };
 
+  // Also prevent the button's own mousedown from bubbling up
   document.addEventListener("mouseup", () => {
     const sel = window.getSelection();
     const text = sel ? sel.toString() : "";
