@@ -34,3 +34,22 @@
   word-break: break-word;
   overflow-wrap: anywhere;
 }
+/* Light mode (default) */
+.docs-report-issue-btn {
+  /* Text & border */
+  color: #241c3a;
+  border: 1px solid #241c3a;
+
+  /* Background */
+  background: #ffffff;
+}
+
+/* Dark mode (Docusaurus sets data-theme="dark" on <html>) */
+html[data-theme="dark"] .docs-report-issue-btn {
+  /* Text & border */
+  color: #c046ff;
+  border-color: #c046ff;
+
+  /* Background */
+  background: #241c3a;
+}

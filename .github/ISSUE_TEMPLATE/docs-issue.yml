@@ -1,0 +1,25 @@
+name: "Docs feedback"
+description: "Report a problem or suggest an improvement."
+title: "[Docs]: <short description>"
+labels: [documentation]
+body:
+  - type: input
+    id: page_url
+    attributes:
+      label: "Page URL"
+      placeholder: "https://docs.example.com/..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: selection
+    attributes:
+      label: "Highlighted text"
+      description: "The exact text you selected"
+      render: markdown
+
+  - type: textarea
+    id: details
+    attributes:
+      label: "What’s the issue?"
+      placeholder: "Describe what’s wrong or what should change"
