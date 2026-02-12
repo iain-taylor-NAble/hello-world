@@ -64,7 +64,7 @@ Supply details of possible solutions to meet the criteria I have presented at a 
 
 It is not essential the review content be as per final online version in terms of being rendered, so long as it is plain text, some formatting to respect headers, bold, lists, tables etc. would suffice. The aim is to remove the 'code' aspects.
 
-Supply pro's and con's for each possible solution.
+Supply pros and cons for each possible solution.
 
 Supply references to all sources you use as I will need review these sources, and provide them as evidence of my research efforts.
 
